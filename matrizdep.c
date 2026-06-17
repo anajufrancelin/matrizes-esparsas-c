@@ -1,20 +1,4 @@
-/*
- * TG — Matrizes Esparsas | Grupo 2
- * Estrutura de Dados I | Prof. Rovilson
- *
- * Mapa de Dependências de Disciplinas com Lista Encadeada
- * Estrutura: Lista Encadeada de Nós Esparsos (ordenada por linha, coluna)
- *
- * Funcionalidades obrigatórias:
- *   criar_matriz, inserir_dependencia, remover_dependencia,
- *   tem_dependencia, listar_prerequisitos, listar_dependentes,
- *   transpor, imprimir_matriz, liberar_matriz
- *
- * Extras (surpreenda-me):
- *   - Detecção de ciclos por DFS (qualquer comprimento, não só diretos)
- *   - Ordenação Topológica (ordem válida de cursagem das disciplinas)
- *   - Nomes simbólicos para as disciplinas
- */
+
 
 #include <stdio.h>
 #include <stdlib.h>
